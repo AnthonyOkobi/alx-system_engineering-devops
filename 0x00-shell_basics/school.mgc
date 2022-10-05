@@ -1,3 +1,5 @@
-ls -map
+#!/bin/bash
+file /etc/SCHOOL
+/etc/school: ASCII text
 
 
