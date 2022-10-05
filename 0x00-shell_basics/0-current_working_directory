@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "chmod u+x current_working_directory"
+echo "chmod u+x"
