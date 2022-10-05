@@ -1,5 +1,2 @@
-#!/bin/bash
-file /etc/SCHOOL
-/etc/school: ASCII text
-
-
+0 string SCHOOL School data
+!:mime School 
