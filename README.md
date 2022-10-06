@@ -1,3 +1,8 @@
-#!/bin/bash
-echo "ALX new system enginnering trainning"
+Learning about shell
+
+Navigation
+
+Basic shell commands
+
+Permissions 
 
