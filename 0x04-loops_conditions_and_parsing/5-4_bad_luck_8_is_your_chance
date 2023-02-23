@@ -1,23 +1,19 @@
 #!/usr/bin/env bash
-
-# Loops form 1 to 10 and displays:
-# Displays "bad luck" for the 4th loop iteration.
-# Displays "good luck" for the 8th loop iteration.
-# displays "Best School" for the other iterations.
-
-count=0
-
-while [ $count -lt 10 ]
+# loop from 1 to 10 and:
+# display bad luck for the 4th element
+# display good luck for the 8th element
+# display Best School for the other elements
+i=1
+while [ $i -le 10 ]
 do
-if [ $count -eq 3 ]
-then
-echo "bad luck"
-elif [ $count -eq 7 ]
-then
-echo "good luck"
-else
-echo "Best School"
-fi 
-(( count++ ))
-	done
-
+	if [ $i = 4 ]
+	then
+		echo "bad luck"
+	elif [ $i = 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	i=$(( i + 1 ))
+done
