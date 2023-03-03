@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Display TCP and UDP ports. Includes listeining sockets as well
+# + as the PID and name of the program to which each socket belongs.
+netstat -l --program
