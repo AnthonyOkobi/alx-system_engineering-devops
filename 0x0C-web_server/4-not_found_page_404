@@ -16,4 +16,5 @@ echo "Hello World!" > /var/www/html/index.nginx-debian.html
 sudo sed -i "30i $ADD301_REDIRECT" /etc/nginx/sites-available/default
 echo "Ceci n'est pas une page" > /var/www/html/404.html
 sudo sed -i "47i\ $PATTERN$ADD404_NOTFOUND" /etc/nginx/sites-available/default
-sudo service nginx restar
+sudo service nginx restart
+sudo service nginx reload
