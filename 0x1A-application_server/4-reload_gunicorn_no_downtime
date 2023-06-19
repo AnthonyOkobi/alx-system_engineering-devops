@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Kill gunicorn worker processe gracefully, with no downtime
-pkill -HUP gunicorn
+# Gracefully reloads Gunicorn.
+
+ps aux | grep gunicorn | awk '{ print $2 }' | xargs kill -HUP
